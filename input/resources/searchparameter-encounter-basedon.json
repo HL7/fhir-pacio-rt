@@ -1,0 +1,19 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "encounter-based-on",
+    "status": "active",
+    "code": "based-on",
+    "name": "Timepoint_BasedOn",
+    "description": "The ClinicalImpression or ServiceRequest that initiated this timepoint",
+    "url": "http://hl7.org/fhir/us/pacio-rt/SearchParameter/encounter-based-on",
+    "base": [
+      "Encounter"
+    ],
+    "type": "reference",
+    "expression": "Encounter.basedOn | Encounter.basedOn.extension.where(url='http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression').valueReference",
+    "target": [
+        "ServiceRequest",
+        "ClinicalImpression"
+    ]
+  }
+  

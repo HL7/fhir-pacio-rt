@@ -1,0 +1,68 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: hl7.fhir.us.pacio-rt
+canonical: http://hl7.org/fhir/us/pacio-rt
+name: PACIORe-AssessmentTimepoints
+title: PACIO Re-Assessment Timepoints Implementation Guide
+description: PACIO Re-Assessment Timepoints Implementation Guide
+status: draft
+version: 0.1.0
+publisher:
+  name: HL7 Community-Based Care and Privacy Working Group
+  url: http://www.hl7.org/Special/committees/patientempowerment
+  email: patients@lists.HL7.org
+contact:
+  - name: PACIO project
+    telecom:
+      - system: url
+        value: http://www.hl7.org/Special/committees/patientempowerment
+      - system: email
+        value: info@pacioproject.org
+license: CC0-1.0
+fhirVersion: 4.0.1
+dependencies:
+  hl7.fhir.us.core: 3.1.1   # NOTE: potential issues may arise when using the 3.2.0/4.0.0 version of Encounter
+parameters:
+  path-expansion-params: '../../input/_resources/terminology-settings.json'  # for using US ed of SNOMED
+  show-inherited-invariants: false
+  apply-jurisdiction: true
+  apply-publisher: true
+copyrightYear: 2021+
+releaseLabel: ci-build
+#releaseLabel: STU 1
+jurisdiction: urn:iso:std:iso:3166#US
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To control the menu.xml using this config, uncomment and set the "menu" property.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Table of Contents: toc.html
+  #Guidance:
+  #  Business Case:  business_case.html
+  #  Patient Stories and Personas: patient_stories_and_personas.html
+  #  Use Cases: use_cases.html
+  #  General Guidance: general_guidance.html
+  #  Security: security.html
+  FHIR Artifacts:
+    Capability Statement: CapabilityStatement-rt-cs.html
+    Search Parameters: artifacts.html#2
+    Profiles: artifacts.html#3
+    Extensions: artifacts.html#4
+    Value Sets: artifacts.html#5
+    Code Systems: artifacts.html#6
+    Examples: artifacts.html#7
+  Downloads: downloads.html
+
+# ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
+# │  To control the package-list.json using this config, uncomment and set the "history" property. │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+#resources:
+#  Coverage/CoverageEx1:
+#    name: Coverage Example 1
+#    description: Coverage Example 1
+#    exampleCanonical: http://hl7.org/fhir/us/carin-bb/StructureDefinition/C4BB-Coverage
+
