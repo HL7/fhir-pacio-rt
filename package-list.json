@@ -8,14 +8,14 @@
       {
         "version": "current",
         "desc": "PACIO Re-Assessment Timepoints Implementation Guide CI Build",
-        "path": "http://build.fhir.org/ig/HL7/fhir-pacio-reassessment-timepoints",
+        "path": "http://hl7.org/fhir/us/pacio-rt",
         "status": "ci-build",
         "current": true
       },
       {
         "version": "0.1.0",
         "desc": "PACIO Re-Assessment Timepoints Implementation Guide Release 1 - US Realm Pre-ballot",
-        "path": "http://build.fhir.org/ig/HL7/fhir-pacio-reassessment-timepoints/v0.1.0",
+        "path": "http://hl7.org/fhir/us/pacio-rt/v0.1.0",
         "date": "2021-11-04",
         "status": "draft",
         "sequence": "STU 1",

@@ -11,13 +11,13 @@ status: draft
 version: 0.1.0
 publisher:
   name: HL7 Community-Based Care and Privacy Working Group
-  url: http://www.hl7.org/Special/committees/patientempowerment
+  url: https://www.hl7.org/Special/committees/homehealth
   email: patients@lists.HL7.org
 contact:
   - name: PACIO project
     telecom:
       - system: url
-        value: http://www.hl7.org/Special/committees/patientempowerment
+        value: https://www.hl7.org/Special/committees/homehealth
       - system: email
         value: info@pacioproject.org
 license: CC0-1.0
