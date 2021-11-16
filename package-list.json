@@ -8,7 +8,7 @@
       {
         "version": "current",
         "desc": "PACIO Re-Assessment Timepoints Implementation Guide CI Build",
-        "path": "http://hl7.org/fhir/us/pacio-rt",
+        "path": "http://build.fhir.org/ig/HL7/fhir-pacio-rt",
         "status": "ci-build",
         "current": true
       },
