@@ -11,6 +11,7 @@ Description: "Defining codes for describing various entity types for structuring
 * #regulatory-federal "Regulatory - Federal" "Regulatory - Federal"
 * #provider "Provider" "Provider"
 * #accreditation-agency "Accreditation Agency" "Accreditation Agency"
+* ^caseSensitive = true
 
 ValueSet: TimepointEntityTypeValueSet
 Id: timepoint-entity-type-vs
@@ -26,6 +27,7 @@ Description: "Defining codes for describing various service types of clinical as
 * #oasis "Outcome and Assessment Information Set" "CMS Home Health Outcome and Assessment Information Set"
 * #mds "Minimum Data Set" "CMS Minimum Data Set - Resident Assessment and Care Screening"
 * #pt "Physical Therapy Assessment" "Physical Therapy Assessment"
+* ^caseSensitive = true
 
 ValueSet: TimepointServiceTypeValueSet
 Id: timepoint-service-type-vs
@@ -48,6 +50,7 @@ Id: timepoint-class-cs
 Title: "Timepoint Class Code System"
 Description: "Defining codes for the classification of patient timepoint such as skilled nursing facility, home health, etc."
 * #SNF "skilled nursing facility" "Healthcare encounter that takes place in a skilled nursing facility."
+* ^caseSensitive = true
 
 ValueSet: TimepointClassValueSet
 Id: timepoint-class-vs
