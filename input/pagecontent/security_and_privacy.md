@@ -1,4 +1,4 @@
-[//]: #  ## Security, Privacy, and Consent 
+[//]: #  ## Security and Privacy 
 
 ### General Considerations
 

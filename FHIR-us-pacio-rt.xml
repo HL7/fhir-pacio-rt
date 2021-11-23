@@ -261,8 +261,9 @@
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
 <page key="downloads" name="Downloads"/>
-<page key="general_guidance" name="General Guidance"/>
+<page key="formal_specification" name="Formal Specification"/>
 <page key="index" name="Home"/>
-<page key="security_privacy" name="Security Privacy"/>
+<page key="security_and_privacy" name="Security and Privacy"/>
 <page key="toc" name="Table of Contents"/>
+<page key="underlying_technologies" name="Underlying Technologies"/>
 </specification>

@@ -41,8 +41,9 @@ menu:
   Home: index.html
   Table of Contents: toc.html
   Guidance:
-    General Guidance: general_guidance.html
-    Security, Privacy: security_privacy.html
+    Formal Specification: formal_specification.html
+    Security and Privacy: security_and_privacy.html
+    Underlying Technologies: underlying_technologies.html
   FHIR Artifacts:
     Capability Statement: CapabilityStatement-rt-cs.html
     Search Parameters: artifacts.html#2

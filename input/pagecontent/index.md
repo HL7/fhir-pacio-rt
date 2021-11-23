@@ -48,16 +48,13 @@ The audience for this IG includes architects and developers of healthcare inform
 This Guide is divided into several pages which are listed at the top of each page in the menu bar.
 <ul>
     <li>Home: The home page provides the introduction and background information to set context for the use of the HL7 FHIR® Re-assessment Timepoints Implementation Guide.</li>
-<!--    <li>Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide by detailing the business case, patient stories and personas and use cases.
+    <li>Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide.
         <ul>
-            <li>Business Case: A business case summarizes the scope of information exchange covered by the IG.</li>
-            <li>Patient Stories and Personas: Patient stories and personas give context to the data exchange standards detailed in the technical areas of the IG.  They allow the non-technical reader to envision situations in which the IGs provisions would apply, and ensure that development aspects of conforming to the IG meet the intended needs for exchange of this type of information.</li>
-            <li>Use Cases: A use case is a list of technical actions or event steps typically defining the interactions between a role and a system to achieve a goal. The actor can be a human or other external system. Technical scenarios that describe systems interactions between technical actors to implement the business case.</li>
-            <li>Security: General security requirements and recommendations for HL7 FHIR® Re-assessment Timepoints Implementation Guide actors.TBD: Security information will need to be described as needed.</li>
-            <li>About ADI Examples: Descriptive examples that demonstrate the use of Re-assessment Timepoints profiles and exchange mechanisms.</li>
+            <li>Formal Specification: Information about conformance to the guide including Must Support requirements, document signatures, and document workflow.</li>
+            <li>Security: General security requirements and recommendations for HL7 FHIR® ADI Implementation Guide actors, including authentication, authorization, and logging requirements and guidance.</li>          
+            <li>Underlying Technologies: Information about the terminologies, notations, and design principles specific to FHIR that are used by this specification.</li>
         </ul>
     </li>
--->
     <li>FHIR Artifacts: These sections provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
         <ul>
             <li>Profiles: This section lists the set of Profiles that are defined in this guide to exchange advance directive information. Each linked Profile page includes a narrative introduction and a formal definition.</li>
@@ -77,16 +74,6 @@ This Guide is divided into several pages which are listed at the top of each pag
     <tr>
         <th><b>Term</b></th>
         <th><b>Definition</b></th>
-    </tr>
-    <tr>
-        <td>Business case</td>
-        <td>A business case summarizes the scope of information exchange covered by the IG.</td>
-    </tr>
-    <tr>
-        <td>Patient story</td>
-        <td><p>Patient stories are fictitious illustrative personal stories that are included to show the personal nature of the information being shared and demonstrate the value of having and sharing personal advance care plan information or, alternatively, the negative outcomes that arise when this information is not available in a high-quality, standardized, sharable digital format.</p>
-        <p>Personas are used to model, summarize and communicate research about people who have been observed or researched in some way. A persona is depicted as a specific person but is not a real individual; rather, it is synthesized from observations of many people.
-    </p></td>
     </tr>
     <tr>
         <td>Use case</td>
