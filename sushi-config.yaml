@@ -40,12 +40,9 @@ jurisdiction: urn:iso:std:iso:3166#US
 menu:
   Home: index.html
   Table of Contents: toc.html
-  #Guidance:
-  #  Business Case:  business_case.html
-  #  Patient Stories and Personas: patient_stories_and_personas.html
-  #  Use Cases: use_cases.html
-  #  General Guidance: general_guidance.html
-  #  Security: security.html
+  Guidance:
+    General Guidance: general_guidance.html
+    Security, Privacy: security_privacy.html
   FHIR Artifacts:
     Capability Statement: CapabilityStatement-rt-cs.html
     Search Parameters: artifacts.html#2
