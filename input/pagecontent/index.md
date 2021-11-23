@@ -2,16 +2,31 @@ This PACIO Re-Assessment Timepoints implementation guide describes a means to br
 
 ### Introduction 
 <p>
-Post-Acute Admissions extend over much longer periods of time than the encounters in the Acute and Ambulatory Care Settings, often going for several months or even years. Over the course of these time periods the patient condition and therefore the care being provided is changing - for example in Home Health the goal is rehabilitation so Care Plans, Medications, and Orders are all likely changing throughout an admission that could last several months. Already in existence within post-acute care settings are periods of time structured by a variety of stakeholders, some more rigid than others - regulatory and conditions of participation, payer and revenue cycle requirements, and provider specific processes and protocols. In settings like Home Health and SNF, there are defined Medicare assessment instruments that must be completed every X number of days (varies by care setting); the results of said assessment drive the Care Plan for the next X number of days; if a patient has a pain management Care Plan, and their pain scores are down then they may have their Opioid drug dosages reduced or eliminated. If the patient's ambulation is improving, then we may see interventions focused on more complex exercises. These periods of time, defined by many different drivers, have direct impact on how data is made available outside of an EMR; without a structure in place to hold this information a connecting application or patient would have no choice but to sift through months worth of information rather than focusing on a given period or periods most relevant to the need of the application, patient, or other entity.
-</p>
-
-
-### Background
-<p>
-Out of hospital care spans longer periods of time than in Acute and Ambulatory settings of care. Where a patient may have a 1 hour check up with their PCP - a Home Health nurse may be seeing that same patient at the same time for months. Within these extended periods of time that make up a Post-Acute admission, there are sub units of time already defined and driven by payer requirements, regulation, or internal processes that organize updates and changes to care being provided. For example - at the start of a Home Health admission, the patient may be coming off of an acute event and have care plans, and other clinical considerations to meet that need; whereas at the end of the admission (several weeks later) the patient may have rehabilitated and the care plan, meds, diagnosis, and other key clinical data points may have changed significantly. Currently there is no FHIR structure to build out these sub-units of a broader home health admission to properly define the progression of care.
+Post-Acute Admissions extend over much longer periods of time than the encounters in the Acute and Ambulatory Care Settings, often going for several months or even years. Over the course of these time periods the patient condition and therefore the care being provided is changing - for example in Home Health the goal is rehabilitation so Care Plans, Medications, and Orders are all likely changing throughout an admission that could last several months. Already in existence within post-acute care settings are periods of time structured by a variety of stakeholders, some more rigid than others - regulatory and conditions of participation, payer and revenue cycle requirements, and provider specific processes and protocols. 
 </p>
 <p>
-This project has been under discussion with the PACIO Project for several months. We have selected the Encounter Resource for our profile, and have begun the conversation with the broader PACIO group around field usages and requirements. Contributors to this discussion include providers, health IT organizations, other FHIR workgroups, and governing bodies like CMS. LOINC and others.
+In settings like Home Health and SNF, there are defined Medicare assessment instruments that must be completed every X number of days (varies by care setting); the results of said assessment drive the Care Plan for the next X number of days; if a patient has a pain management Care Plan, and their pain scores are down then they may have their Opioid drug dosages reduced or eliminated. If the patient's ambulation is improving, then we may see interventions focused on more complex exercises. These periods of time, defined by many different drivers, have direct impact on how data is made available outside of an EMR; without a structure in place to hold this information a connecting application or patient would have no choice but to sift through months worth of information rather than focusing on a given period or periods most relevant to the need of the application, patient, or other entity.
+</p>
+
+### Background and Use Case
+<p>
+Out of hospital care spans longer periods of time than in Acute and Ambulatory settings of care. Where a patient may have a 1 hour check up with their PCP - a Home Health nurse may be seeing that same patient at the same time for months. Within these extended periods of time that make up a Post-Acute admission, there are sub units of time already defined and driven by payer requirements, regulation, or internal processes that organize updates and changes to care being provided. Re-assessment timepoints act as an additional layer of organization within an encounter to help clinicians navigate within the volume of data in a long-term encounter to more easily get to the specific information they may be seeking.
+</p>
+
+<br clear="all" />
+<figure style="text-align:center"><img src="./concept.png" alt="Re-assessment Timepoint Concept" width="70%" /></figure>
+<br clear="all" />
+
+<p>
+For example - at the start of a Home Health admission, the patient may be coming off of an acute event and have care plans, and other clinical considerations to meet that need; whereas at the end of the admission (several weeks later) the patient may have rehabilitated and the care plan, meds, diagnosis, and other key clinical data points may have changed significantly. Currently there is no FHIR structure to build out these sub-units of a broader home health admission to properly define the progression of care.
+</p>
+
+<br clear="all" />
+<figure style="text-align:center"><img src="./example.png" alt="Re-assessment Timepoint Example" width="70%" /></figure>
+<br clear="all" />
+
+<p>
+We have selected the Encounter Resource for the Re-assessment Timepoints profile. Contributors to this discussion include providers, health IT organizations, other FHIR workgroups, and governing bodies like CMS. LOINC and others.
 </p>
 
 ![PACIO logo](./pacio.png)
