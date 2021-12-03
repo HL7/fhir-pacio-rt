@@ -14,13 +14,13 @@
       },
       {
         "version": "0.1.0",
-        "desc": "PACIO Re-Assessment Timepoints Implementation Guide Release 1 - US Realm Pre-ballot",
-        "path": "http://hl7.org/fhir/us/pacio-rt/v0.1.0",
+        "desc": "PACIO Re-Assessment Timepoints Implementation Guide Release 1 - US Realm STU 1 Ballot",
+        "path": "http://hl7.org/fhir/us/pacio-rt/2022Jan",
         "date": "2021-11-04",
-        "status": "draft",
+        "status": "ballot",
         "sequence": "STU 1",
         "fhirversion": "4.0.1",
-        "current": true
+        "current": false
       }
     ]
   }
