@@ -1,119 +1,119 @@
 Alias: NUCC = http://nucc.org/provider-taxonomy
 Alias: SNOMED = http://snomed.info/sct
 
-Instance: provider-role-nurse-Practitioner-SummerJohnson
+Instance: RT-PractitionerRole-RN-SummerJohnson
 InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
+Description: "PractitionerRole - Summer Johnson as RN at Happy Nursing"
 * code = NUCC#163W00000X
 * code.coding.display = "Registered Nurse"
 * specialty = SNOMED#408443003
 * specialty.coding.display = "General medical practice"
 * active = true
-* practitioner = Reference(Practitioner-SummerJohnson)
-* organization = Reference(Provider-Org-1)
-* location = Reference(Provider-Org-Loc-1)
+* practitioner = Reference(Practitioner/RT-Practitioner-SummerJohnson)
+* organization = Reference(Organization/RT-PractitionerOrg-HappyNursing-SNF)
+* location = Reference(Location/RT-PractitionerOrgLoc-HappyNursing-SNF)
 
-Instance: provider-role-nurse-Practitioner-LiaNguyen
+Instance: RT-PractitionerRole-RN-LiaNguyen
 InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
+Description: "PractitionerRole - Lia Nguyen as RN at Happy Nursing"
 * code = NUCC#163W00000X
 * code.coding.display = "Registered Nurse"
 * specialty = SNOMED#408443003
 * specialty.coding.display = "General medical practice"
 * active = true
-* practitioner = Reference(Practitioner-LiaNguyen)
-* organization = Reference(Provider-Org-1)
-* location = Reference(Provider-Org-Loc-1)
+* practitioner = Reference(Practitioner/RT-Practitioner-LiaNguyen)
+* organization = Reference(Organization/RT-PractitionerOrg-HappyNursing-SNF)
+* location = Reference(Location/RT-PractitionerOrgLoc-HappyNursing-SNF)
 
-Instance: provider-role-physical-therapist-Practitioner-JenCadbury
+Instance: RT-PractitionerRole-PT-JenCadbury
 InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
+Description: "PractitionerRole - Jen Cadbury as PT at Happy Nursing"
 * code = NUCC#225100000X
 * code.coding.display = "Physical Therapist"
 * specialty = SNOMED#394601005
 * specialty.coding.display = "Clinical physiology"
 * active = true
-* practitioner = Reference(Practitioner-JenCadbury)
-* organization = Reference(Provider-Org-1)
-* location = Reference(Provider-Org-Loc-1)
+* practitioner = Reference(Practitioner/RT-Practitioner-JenCadbury)
+* organization = Reference(Organization/RT-PractitionerOrg-HappyNursing-SNF)
+* location = Reference(Location/RT-PractitionerOrgLoc-HappyNursing-SNF)
 
-Instance: provider-role-physical-therapist-Practitioner-DanielGranger
+Instance: RT-PractitionerRole-PT-DanielGranger
 InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
+Description: "PractitionerRole - Daniel Granger as PT at Happy Nursing"
 * code = NUCC#225100000X
 * code.coding.display = "Physical Therapist"
 * specialty = SNOMED#394601005
 * specialty.coding.display = "Clinical physiology"
 * active = true
-* practitioner = Reference(Practitioner-DanielGranger)
-* organization = Reference(Provider-Org-1)
-* location = Reference(Provider-Org-Loc-1)
+* practitioner = Reference(Practitioner/RT-Practitioner-DanielGranger)
+* organization = Reference(Organization/RT-PractitionerOrg-HappyNursing-SNF)
+* location = Reference(Location/RT-PractitionerOrgLoc-HappyNursing-SNF)
 
-Instance: provider-role-nurse-Practitioner-JacobHartwell
+Instance: RT-PractitionerRole-RN-JacobHartwell
 InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
+Description: "PractitionerRole - Jacob Hartwell as Home Health RN at Sky Harbor HH"
 * code = NUCC#163WH0200X
 * code.coding.display = "Home Health Registered Nurse"
 * specialty = SNOMED#408443003
 * specialty.coding.display = "General medical practice"
 * active = true
-* practitioner = Reference(Practitioner-JacobHartwell)
-* organization = Reference(Provider-Org-2)
-* location = Reference(Provider-Org-Loc-2)
+* practitioner = Reference(Practitioner/RT-Practitioner-JacobHartwell)
+* organization = Reference(Organization/RT-PractitionerOrg-SkyHarbor-HHA)
+* location = Reference(Location/RT-PractitionerOrgLoc-SkyHarbor-HHA)
 
-Instance: provider-role-nurse-Practitioner-TamaraRodriguez
+Instance: RT-PractitionerRole-RN-TamaraRodriguez
 InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
+Description: "PractitionerRole - Tamara Rodriguez as Home Health RN at Sky Harbor HH"
 * code = NUCC#163WH0200X
 * code.coding.display = "Home Health Registered Nurse"
 * specialty = SNOMED#408443003
 * specialty.coding.display = "General medical practice"
 * active = true
-* practitioner = Reference(Practitioner-TamaraRodriguez)
-* organization = Reference(Provider-Org-2)
-* location = Reference(Provider-Org-Loc-2)
+* practitioner = Reference(Practitioner/RT-Practitioner-TamaraRodriguez)
+* organization = Reference(Organization/RT-PractitionerOrg-SkyHarbor-HHA)
+* location = Reference(Location/RT-PractitionerOrgLoc-SkyHarbor-HHA)
 
-Instance: provider-role-physical-therapist-Practitioner-LunaBaskins
+Instance: RT-PractitionerRole-PT-LunaBaskins
 InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
+Description: "PractitionerRole - Luna Baskins as PT at Sky Harbor HH"
 * code = NUCC#225100000X
 * code.coding.display = "Physical Therapist"
 * specialty = SNOMED#394601005
 * specialty.coding.display = "Clinical physiology"
 * active = true
-* practitioner = Reference(Practitioner-LunaBaskins)
-* organization = Reference(Provider-Org-2)
-* location = Reference(Provider-Org-Loc-2)
+* practitioner = Reference(Practitioner/RT-Practitioner-LunaBaskins)
+* organization = Reference(Organization/RT-PractitionerOrg-SkyHarbor-HHA)
+* location = Reference(Location/RT-PractitionerOrgLoc-SkyHarbor-HHA)
 
-Instance: provider-role-physical-therapist-Practitioner-ScottDumble
+Instance: RT-PractitionerRole-PT-ScottDumble
 InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
+Description: "PractitionerRole - Scott Dumble as PT at Sky Harbor HH"
 * code = NUCC#225100000X
 * code.coding.display = "Physical Therapist"
 * specialty = SNOMED#394601005
 * specialty.coding.display = "Clinical physiology"
 * active = true
-* practitioner = Reference(Practitioner-ScottDumble)
-* organization = Reference(Provider-Org-2)
-* location = Reference(Provider-Org-Loc-2)
+* practitioner = Reference(Practitioner/RT-Practitioner-ScottDumble)
+* organization = Reference(Organization/RT-PractitionerOrg-SkyHarbor-HHA)
+* location = Reference(Location/RT-PractitionerOrgLoc-SkyHarbor-HHA)
 
 
-Instance: provider-role-pcp-Practitioner-JohnSmith
+Instance: RT-PractitionerRole-PCP-JohnSmith
 InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
+Description: "PractitionerRole - John Smith as PCP"
 * code = NUCC#261QP2300X
 * code.coding.display = "Primary Care Clinic/Center"
 * specialty = SNOMED#419192003
 * specialty.coding.display = "Internal medicine"
 * active = true
-* practitioner = Reference(Practitioner-JohnSmith)
+* practitioner = Reference(Practitioner/RT-Practitioner-JohnSmith)
 
-Instance: provider-role-neurologist-Practitioner-NoraOlogist
+Instance: RT-PractitionerRole-neurologist-NoraOlogist
 InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
+Description: "PractitionerRole - Nora Ologist as Neurologist"
 * code = NUCC#2084N0400X
 * code.coding.display = "Neurology Physician"
 * specialty = SNOMED#394591006
 * specialty.coding.display = "Neurology"
 * active = true
-* practitioner = Reference(Practitioner-NoraOlogist)
+* practitioner = Reference(Practitioner/RT-Practitioner-NoraOlogist)

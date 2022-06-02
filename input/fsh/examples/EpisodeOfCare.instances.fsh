@@ -1,28 +1,28 @@
 Alias: EOCTYPECS = http://terminology.hl7.org/CodeSystem/episodeofcare-type
 
 
-Instance: Episodecare-1-SNF-Stay
+Instance: RT-SNF-EpisodeOfCare
 InstanceOf: EpisodeOfCare
 Description: "SNF-Stay Episode of Care for Betsy Smith-Johnson, period 2020-01-01 to 2020-02-10"
 * status = #finished
 * type = EOCTYPECS#pac
-* diagnosis.condition = Reference(BSJ-Diagnosis1)
-* patient = Reference(patientBSJ1)
-* managingOrganization = Reference(Provider-Org-1)
+* diagnosis.condition = Reference(Condition/RT-SNF-Diagnosis-CI)
+* patient = Reference(Patient/RT-Patient-BSJ)
+* managingOrganization = Reference(Organization/RT-PractitionerOrg-HappyNursing-SNF)
 * period.start = "2020-01-01"
 * period.end = "2020-02-10"
-* careManager = Reference(provider-role-nurse-Practitioner-SummerJohnson)
+* careManager = Reference(PractitionerRole/RT-PractitionerRole-RN-SummerJohnson)
 
 
-Instance: Episodecare-2-HHA-Stay
+Instance: RT-HHA-EpisodeOfCare
 InstanceOf: EpisodeOfCare
 Description: "HHA-Stay Episode of Care for Betsy Smith-Johnson, period 2020-02-10 to 2020-06-29"
 * status = #finished
 * type = EOCTYPECS#hacc
-* diagnosis.condition = Reference(BSJ-Diagnosis2)
-* patient = Reference(patientBSJ1)
-* managingOrganization = Reference(Provider-Org-2)
+* diagnosis.condition = Reference(Condition/RT-HHA-Diagnosis-CISequelae)
+* patient = Reference(Patient/RT-Patient-BSJ)
+* managingOrganization = Reference(Organization/RT-PractitionerOrg-SkyHarbor-HHA)
 * period.start = "2020-02-10"
 * period.end = "2020-06-29"
-* careManager = Reference(provider-role-nurse-Practitioner-JacobHartwell)
+* careManager = Reference(PractitionerRole/RT-PractitionerRole-RN-JacobHartwell)
 
