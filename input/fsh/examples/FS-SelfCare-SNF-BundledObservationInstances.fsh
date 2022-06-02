@@ -9,7 +9,7 @@ Description: "An instance of Observation"
 * status = #final
 * effectiveDateTime = "2020-01-02T16:00:00-05:00"
 * code = LNC#83239-4
-* code.coding.display = "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Prior functioning: everyday activities [CMS Assessment]"
+* code.coding.display = "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS E - Prior functioning: everyday activities [CMS Assessment]"
 * category = CAT#survey
 * performer = Reference(PractitionerRole/RT-PractitionerRole-RN-SummerJohnson)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-HappyNursing-SNF)
@@ -46,7 +46,7 @@ Description: "An instance of Observation"
 * status = #final
 * effectiveDateTime = "2020-01-02T16:00:00-05:00"
 * code = LNC#89478-2
-* code.coding.display = "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Self-care - discharge goal [CMS Assessment]"
+* code.coding.display = "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS E - Self-care - discharge goal [CMS Assessment]"
 * category = CAT#survey
 * performer = Reference(PractitionerRole/RT-PractitionerRole-RN-SummerJohnson)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-HappyNursing-SNF)

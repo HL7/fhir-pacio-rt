@@ -9,7 +9,7 @@ Description: "An instance of Observation"
 * status = #final
 * effectiveDateTime = "2020-02-10T16:31:00-05:00"
 * code = LNC#89477-4
-* code.coding.display = "OASIS D - Mobility - SOC and ROC performance during assessment period [CMS Assessment]"
+* code.coding.display = "OASIS E - Mobility - SOC and ROC performance during assessment period [CMS Assessment]"
 * category = CAT#survey
 * performer = Reference(PractitionerRole/RT-PractitionerRole-PT-LunaBaskins)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-SkyHarbor-HHA)
@@ -66,7 +66,7 @@ Description: "An instance of Observation"
 * status = #final
 * effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#88486-6
-* code.coding.display = "OASID D - Mobility - follow-up perfomance during assessment period [CMS Assessment]"
+* code.coding.display = "OASIS D - Mobility - follow-up performance during assessment period [CMS Assessment]"
 * category = CAT#survey
 * performer = Reference(PractitionerRole/RT-PractitionerRole-RN-JacobHartwell)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-SkyHarbor-HHA)
@@ -92,7 +92,7 @@ Description: "An instance of Observation"
 * status = #final
 * effectiveDateTime = "2020-06-09T14:00:00-05:00"
 * code = LNC#88486-6
-* code.coding.display = "OASID D - Mobility - follow-up perfomance during assessment period [CMS Assessment]"
+* code.coding.display = "OASIS D - Mobility - follow-up performance during assessment period [CMS Assessment]"
 * category = CAT#survey
 * performer = Reference(PractitionerRole/RT-PractitionerRole-PT-ScottDumble)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-SkyHarbor-HHA)
@@ -117,7 +117,7 @@ Description: "An instance of Observation"
 * status = #final
 * effectiveDateTime = "2020-06-29T14:00:00-05:00"
 * code = LNC#89474-1
-* code.coding.display = "OASIS D - Mobility - discharge performance during assessment period [CMS Assessment]"
+* code.coding.display = "OASIS E - Mobility - discharge performance during assessment period [CMS Assessment]"
 * category = CAT#survey
 * performer = Reference(PractitionerRole/RT-PractitionerRole-PT-ScottDumble)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-SkyHarbor-HHA)

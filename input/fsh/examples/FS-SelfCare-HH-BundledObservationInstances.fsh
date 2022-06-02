@@ -9,7 +9,7 @@ Description: "An instance of Observation"
 * status = #final
 * effectiveDateTime = "2020-02-10T16:31:00-05:00"
 * code = LNC#83239-4
-* code.coding.display = "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Prior functioning: everyday activities [CMS Assessment]"
+* code.coding.display = "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS E - Prior functioning: everyday activities [CMS Assessment]"
 * category = CAT#survey
 * performer = Reference(PractitionerRole/RT-PractitionerRole-PT-LunaBaskins)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-SkyHarbor-HHA)
@@ -26,7 +26,7 @@ Description: "An instance of Observation"
 * status = #final
 * effectiveDateTime = "2020-02-10T16:31:00-05:00"
 * code = LNC#89479-0
-* code.coding.display = "OASIS D - Self-care - SOC/ROC performance during assessment period [CMS Assessment]"
+* code.coding.display = "OASIS E - Self-care - SOC and ROC performance during assessment period [CMS Assessment]"
 * category = CAT#survey
 * performer = Reference(PractitionerRole/RT-PractitionerRole-PT-LunaBaskins)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-SkyHarbor-HHA)
@@ -46,7 +46,7 @@ Description: "An instance of Observation"
 * status = #final
 * effectiveDateTime = "2020-02-10T16:31:00-05:00"
 * code = LNC#89478-2
-* code.coding.display = "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Self-care - discharge goal [CMS Assessment]"
+* code.coding.display = "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS E - Self-care - discharge goal [CMS Assessment]"
 * category = CAT#survey
 * performer = Reference(PractitionerRole/RT-PractitionerRole-PT-LunaBaskins)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-SkyHarbor-HHA)
@@ -98,7 +98,7 @@ Description: "An instance of Observation"
 * status = #final
 * effectiveDateTime = "2020-06-29T14:00:00-05:00"
 * code = LNC#89475-8
-* code.coding.display = "OASIS D - Self-care - discharge performance during assessment period [CMS Assessment]"
+* code.coding.display = "OASIS E - Self-care - discharge performance during assessment period [CMS Assessment]"
 * category = CAT#survey
 * performer = Reference(PractitionerRole/RT-PractitionerRole-PT-ScottDumble)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-SkyHarbor-HHA)

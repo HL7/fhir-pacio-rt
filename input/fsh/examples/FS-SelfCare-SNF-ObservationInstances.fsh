@@ -13,8 +13,8 @@ Description: "An instance of Observation"
 * code.text = "Prior functioning.self care [CMS Assessment]"
 * code.coding.display = "Prior functioning.self care [CMS Assessment]"
 * valueCodeableConcept = LNC#LA11539-6
-* valueCodeableConcept.text = "Independent - Patient completed the activities by themself, with or without an assistive device, with no assistance from a helper."
-* valueCodeableConcept.coding.display = "Independent - Patient completed the activities by themself, with or without an assistive device, with no assistance from a helper."
+* valueCodeableConcept.text = "Independent - Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper."
+* valueCodeableConcept.coding.display = "Independent - Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper."
 * performer = Reference(PractitionerRole/RT-PractitionerRole-RN-SummerJohnson)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-HappyNursing-SNF)
 
@@ -29,8 +29,8 @@ Description: "An instance of Observation"
 * code.text = "Indoor mobility (Ambulation) [CMS Assessment]"
 * code.coding.display = "Indoor mobility (Ambulation) [CMS Assessment]"
 * valueCodeableConcept = LNC#LA11539-6
-* valueCodeableConcept.text = "Independent - Patient completed the activities by themself, with or without an assistive device, with no assistance from a helper."
-* valueCodeableConcept.coding.display = "Independent - Patient completed the activities by themself, with or without an assistive device, with no assistance from a helper."
+* valueCodeableConcept.text = "Independent - Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper."
+* valueCodeableConcept.coding.display = "Independent - Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper."
 * performer = Reference(PractitionerRole/RT-PractitionerRole-RN-SummerJohnson)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-HappyNursing-SNF)
 
@@ -45,8 +45,8 @@ Description: "An instance of Observation"
 * code.text = "Stairs [CMS Assessment]"
 * code.coding.display = "Stairs [CMS Assessment]"
 * valueCodeableConcept = LNC#LA11539-6
-* valueCodeableConcept.text = "Independent - Patient completed the activities by themself, with or without an assistive device, with no assistance from a helper."
-* valueCodeableConcept.coding.display = "Independent - Patient completed the activities by themself, with or without an assistive device, with no assistance from a helper."
+* valueCodeableConcept.text = "Independent - Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper."
+* valueCodeableConcept.coding.display = "Independent - Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper."
 * performer = Reference(PractitionerRole/RT-PractitionerRole-RN-SummerJohnson)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-HappyNursing-SNF)
 
@@ -61,8 +61,8 @@ Description: "An instance of Observation"
 * code.text = "Functional cognition [CMS Assessment]"
 * code.coding.display = "Functional cognition [CMS Assessment]"
 * valueCodeableConcept = LNC#LA11539-6
-* valueCodeableConcept.text = "Independent - Patient completed the activities by themself, with or without an assistive device, with no assistance from a helper."
-* valueCodeableConcept.coding.display = "Independent - Patient completed the activities by themself, with or without an assistive device, with no assistance from a helper."
+* valueCodeableConcept.text = "Independent - Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper."
+* valueCodeableConcept.coding.display = "Independent - Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper."
 * performer = Reference(PractitionerRole/RT-PractitionerRole-RN-SummerJohnson)
 * extension[event-location].valueReference = Reference(Location/RT-PractitionerOrgLoc-HappyNursing-SNF)
 
