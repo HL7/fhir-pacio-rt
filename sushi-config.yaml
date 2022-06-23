@@ -42,6 +42,7 @@ menu:
   Table of Contents: toc.html
   Guidance:
     Formal Specification: formal_specification.html
+    Use Cases: use_cases.html
     Security and Privacy: security_and_privacy.html
     Underlying Technologies: underlying_technologies.html
   FHIR Artifacts:

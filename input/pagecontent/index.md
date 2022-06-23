@@ -5,7 +5,7 @@ This PACIO Re-Assessment Timepoints implementation guide describes a means to br
 Post-Acute Admissions extend over much longer periods of time than the encounters in the Acute and Ambulatory Care Settings, often going for several months or even years. Over the course of these time periods the patient condition and therefore the care being provided is changing - for example in Home Health the goal is rehabilitation so Care Plans, Medications, and Orders are all likely changing throughout an admission that could last several months. Already in existence within post-acute care settings are periods of time structured by a variety of stakeholders, some more rigid than others - regulatory and conditions of participation, payer and revenue cycle requirements, and provider specific processes and protocols. 
 </p>
 <p>
-In settings like Home Health and SNF, there are defined Medicare assessment instruments that must be completed every X number of days (varies by care setting); the results of said assessment drive the Care Plan for the next X number of days; if a patient has a pain management Care Plan, and their pain scores are down then they may have their Opioid drug dosages reduced or eliminated. If the patient's ambulation is improving, then we may see interventions focused on more complex exercises. These periods of time, defined by many different drivers, have direct impact on how data is made available outside of an EMR; without a structure in place to hold this information a connecting application or patient would have no choice but to sift through months worth of information rather than focusing on a given period or periods most relevant to the need of the application, patient, or other entity.
+In settings like home health and skilled nursing facilities (SNFs), there are defined Medicare assessment instruments that must be completed every X number of days (varies by care setting); the results of said assessment drive the Care Plan for the next X number of days; if a patient has a pain management Care Plan, and their pain scores are down then they may have their Opioid drug dosages reduced or eliminated. If the patient's ambulation is improving, then we may see interventions focused on more complex exercises. These periods of time, defined by many different drivers, have direct impact on how data is made available outside of an EMR; without a structure in place to hold this information a connecting application or patient would have no choice but to sift through months worth of information rather than focusing on a given period or periods most relevant to the need of the application, patient, or other entity.
 </p>
 
 ### Background and Use Case
@@ -47,24 +47,27 @@ The primary goal of the PACIO Project is to establish a framework for the develo
 ### How to read this Guide
 This Guide is divided into several pages which are listed at the top of each page in the menu bar.
 <ul>
-    <li>Home: The home page provides the introduction and background information to set context for the use of the HL7 FHIR® Re-assessment Timepoints Implementation Guide.</li>
+    <li>[Home](index.html): The home page provides the introduction and background information to set context for the use of the HL7 FHIR® Re-assessment Timepoints Implementation Guide.</li>
     <li>Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide.
         <ul>
-            <li>Formal Specification: Information about conformance to the guide including Must Support requirements, document signatures, and document workflow.</li>
-            <li>Security: General security requirements and recommendations for HL7 FHIR® ADI Implementation Guide actors, including authentication, authorization, and logging requirements and guidance.</li>          
-            <li>Underlying Technologies: Information about the terminologies, notations, and design principles specific to FHIR that are used by this specification.</li>
+            <li>[Formal Specification](formal-specification.html): Information about conformance to the guide including Must Support requirements, document signatures, and document workflow.</li>
+            <li>[Use Cases](use-cases.html): Details of a scenario in which Re-Assessment Timepoints could be used and ways that client applications can leverage the information.</li>
+            <li>[Security](security_and_privacy.html): General security requirements and recommendations for Re-Assessment Timepoints Implementation Guide actors, including authentication, authorization, and logging requirements and guidance.</li>          
+            <li>[Underlying Technologies](underlying_technologies.html): Information about the terminologies, notations, and design principles specific to FHIR that are used by this specification.</li>
         </ul>
     </li>
     <li>FHIR Artifacts: These sections provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
         <ul>
-            <li>Profiles: This section lists the set of Profiles that are defined in this guide to exchange advance directive information. Each linked Profile page includes a narrative introduction and a formal definition.</li>
-            <li>Extensions: This section lists the set of Extensions that are defined in this guide that are used by the IG defined profiles. Each linked Extension  page includes a formal definition.</li>
-            <li>Search Parameters: This section lists the HL7 FHIR® Re-assessment Timepoints Implementation Guide defined Search Parameters.</li>
-            <li>Capability Statement: The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide. Systems conforming to this implementation guide are expected to declare conformance to one or more of the included capability statements.</li>
-            <!--<li>Terminology: This section lists the value sets and code system defined for HL7 FHIR® ADI Implementation Guide profiles.</li>-->
+            <li>[Capability Statement](CapabilityStatement-rt-cs.html): This artifact defines the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide. Systems conforming to this implementation guide are expected to declare conformance this capability statements.</li>
+            <li>[Search Parameters](artifacts.html#2): This section lists the HL7 FHIR® Re-assessment Timepoints Implementation Guide defined Search Parameters.</li>
+            <li>[Profiles](artifacts.html#3): This section lists the set of Profiles that are defined in this guide to exchange Re-Assessment Timepoint information. Each linked Profile page includes a narrative introduction and a formal definition.</li>
+            <li>[Extensions](artifacts.html#4): This section lists the set of Extensions that are defined in this guide that are used by the IG defined profiles. Each linked Extension page includes a formal definition.</li>
+            <li>[Value Sets](artifacts.html#5): This section lists the value sets defined by this IG.</li>
+            <li>[Code Systems](artifacts.html#6): This section lists the code systems defined by this IG.</li>
+            <li>[Examples](artifacts.html#7): This section lists the example instances associated with this IG. These provide an example representation of the scenario discussed on the [Use Cases](use-cases.html) page.</li>
         </ul>
     </li>
-    <li>Downloads: This page provides links to downloadable artifacts.</li>
+    <li>[Downloads](downloads.html): This page provides links to downloadable artifacts.</li>
 </ul>
 
 

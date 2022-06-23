@@ -5,7 +5,7 @@ Usage: #example
 * status = #completed
 * description = "Assessment and impression at admission to SNF"
 * subject = Reference(Patient/RT-Patient-BSJ)
-* effectiveDateTime = "2020-01-01"
+* effectiveDateTime = "2021-02-26"
 * encounter = Reference(Encounter/RT-SNF-Encounter)
 * investigation.code.text = "SNF MDS Admission Assessments"
 * investigation.item[0] = Reference(Observation/RT-SNF-MOB-AP-MDS-5-Day-NC-1A)
@@ -22,7 +22,7 @@ Usage: #example
 * status = #completed
 * description = "Assessment and impression at interim assessment at SNF"
 * subject = Reference(Patient/RT-Patient-BSJ)
-* effectiveDateTime = "2020-01-14"
+* effectiveDateTime = "2021-03-11"
 * encounter = Reference(Encounter/RT-SNF-Encounter)
 * investigation.code.text = "SNF IPA Assessments"
 * investigation.item[0] = Reference(Observation/RT-SNF-MOB-IP-MDS-IPA-1C)
@@ -36,7 +36,7 @@ Usage: #example
 * status = #completed
 * description = "Assessment and impression at discharge from SNF"
 * subject = Reference(Patient/RT-Patient-BSJ)
-* effectiveDateTime = "2020-02-10"
+* effectiveDateTime = "2021-04-06"
 * encounter = Reference(Encounter/RT-SNF-Encounter)
 * investigation.code.text = "SNF Discharge Assessments"
 * investigation.item[0] = Reference(Observation/RT-SNF-MOB-DP-MDS-Discharge-ND-1D)
@@ -50,7 +50,7 @@ Usage: #example
 * status = #completed
 * description = "Assessment and impression at start of home health care"
 * subject = Reference(Patient/RT-Patient-BSJ)
-* effectiveDateTime = "2020-02-10"
+* effectiveDateTime = "2021-04-07"
 * encounter = Reference(Encounter/RT-HHA-Encounter)
 * investigation.code.text = "OASIS Start of Care Asessments"
 * investigation.item[0] = Reference(Observation/RT-HHA-SC-DG-OASIS-2C)
@@ -67,7 +67,7 @@ Usage: #example
 * status = #completed
 * description = "Assessment and impression after 60 days of home health care"
 * subject = Reference(Patient/RT-Patient-BSJ)
-* effectiveDateTime = "2020-04-07"
+* effectiveDateTime = "2021-06-02"
 * encounter = Reference(Encounter/RT-HHA-Encounter)
 * investigation.code.text = "OASIS 60-day Follow Up Assessments"
 * investigation.item[0] = Reference(Observation/RT-HHA-MOB-FU-60-OASIS-2C)
@@ -81,7 +81,7 @@ Usage: #example
 * status = #completed
 * description = "Assessment and impression after 120 days of home health care"
 * subject = Reference(Patient/RT-Patient-BSJ)
-* effectiveDateTime = "2020-06-09"
+* effectiveDateTime = "2021-08-04"
 * encounter = Reference(Encounter/RT-HHA-Encounter)
 * investigation.code.text = "OASIS 120-day Follow Up Assessments"
 * investigation.item[0] = Reference(Observation/RT-HHA-MOB-FU-120-OASIS-2D)
@@ -95,7 +95,7 @@ Usage: #example
 * status = #completed
 * description = "Assessment and impression prior to discharge from home health care"
 * subject = Reference(Patient/RT-Patient-BSJ)
-* effectiveDateTime = "2020-06-29"
+* effectiveDateTime = "2021-08-24"
 * encounter = Reference(Encounter/RT-HHA-Encounter)
 * investigation.code.text = "OASIS Discharge Assessments"
 * investigation.item[0] = Reference(Observation/RT-HHA-MOB-DC-OASIS-2E)
