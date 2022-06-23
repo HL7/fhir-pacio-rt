@@ -9,7 +9,7 @@ All implementers of the Re-assessment Timepoints Implementation Guide (IG) **SHO
 1.	The FHIR Security specification provides guidance related to communication security, authentication, authorization/access control, audit, digital signatures, attachments, labels, narrative, and input validation. The FHIR security specification is available [here](http://hl7.org/fhir/R4/security.html).
 2.	The FHIR Security and Privacy Module describes access control and authorization considerations to protect a FHIR server, how to document permissions granted, and how to keep records of performed events. The FHIR Security and privacy module can be found [here](http://hl7.org/fhir/R4/secpriv-module.html).
 3.	The FHIR Implementer’s Safety Checklist helps implementers be sure that they have considered all the parts of FHIR that impact their system design regarding safety. The FHIR safety check list is available [here](http://hl7.org/fhir/R4/safety.html).
-4.  The US Core Implementation Guide provides specific requirements and guidance for US Realm implementation guides around security, privacy, and auditing [here](http://hl7.org/fhir/us/core/STU3.1.1/security.html).
+4.  The US Core Implementation Guide provides specific requirements and guidance for US Realm implementation guides around security, privacy, and auditing [here](http://hl7.org/fhir/us/core/security.html).
 
 #### Security Requirements
 For the purposes of Re-assessment Timepoints, additional security conformance requirements are as follows:
@@ -21,7 +21,7 @@ For the purposes of Re-assessment Timepoints, additional security conformance re
 ##### Authentication and Authorization 
 To prevent unauthorized access to sensitive data, implementers **SHALL** use at least one of the following:
 
-1.  The security requirements from the [US Core Implementation Guide](http://hl7.org/fhir/us/core/STU3.1.1/security.html),
+1.  The security requirements from the [US Core Implementation Guide](http://hl7.org/fhir/us/core/security.html),
 2.  The [SMART on FHIR App Launch Framework](http://hl7.org/fhir/smart-app-launch/index.html),
 3.  [SMART on FHIR Backend Services](http://www.hl7.org/fhir/smart-app-launch/backend-services.html),
 4.	Mutually authenticated TLS, or
