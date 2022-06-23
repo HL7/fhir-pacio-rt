@@ -26,7 +26,7 @@ For example - at the start of a Home Health admission, the patient may be coming
 <br clear="all" />
 
 <p>
-We have selected the Encounter Resource for the Re-assessment Timepoints profile. Contributors to this discussion include providers, health IT organizations, other FHIR workgroups, and governing bodies like CMS. LOINC and others.
+We have selected the Encounter Resource for the Re-assessment Timepoints profile. Contributors to this discussion include providers, health IT organizations, other FHIR workgroups, and governing bodies like CMS, LOINC, and others.
 </p>
 
 ![PACIO logo](./pacio.png)
@@ -45,30 +45,23 @@ The primary goal of the PACIO Project is to establish a framework for the develo
 </p>
 
 ### How to read this Guide
+
 This Guide is divided into several pages which are listed at the top of each page in the menu bar.
-<ul>
-    <li>[Home](index.html): The home page provides the introduction and background information to set context for the use of the HL7 FHIR® Re-assessment Timepoints Implementation Guide.</li>
-    <li>Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide.
-        <ul>
-            <li>[Formal Specification](formal-specification.html): Information about conformance to the guide including Must Support requirements, document signatures, and document workflow.</li>
-            <li>[Use Cases](use-cases.html): Details of a scenario in which Re-Assessment Timepoints could be used and ways that client applications can leverage the information.</li>
-            <li>[Security](security_and_privacy.html): General security requirements and recommendations for Re-Assessment Timepoints Implementation Guide actors, including authentication, authorization, and logging requirements and guidance.</li>          
-            <li>[Underlying Technologies](underlying_technologies.html): Information about the terminologies, notations, and design principles specific to FHIR that are used by this specification.</li>
-        </ul>
-    </li>
-    <li>FHIR Artifacts: These sections provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
-        <ul>
-            <li>[Capability Statement](CapabilityStatement-rt-cs.html): This artifact defines the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide. Systems conforming to this implementation guide are expected to declare conformance this capability statements.</li>
-            <li>[Search Parameters](artifacts.html#2): This section lists the HL7 FHIR® Re-assessment Timepoints Implementation Guide defined Search Parameters.</li>
-            <li>[Profiles](artifacts.html#3): This section lists the set of Profiles that are defined in this guide to exchange Re-Assessment Timepoint information. Each linked Profile page includes a narrative introduction and a formal definition.</li>
-            <li>[Extensions](artifacts.html#4): This section lists the set of Extensions that are defined in this guide that are used by the IG defined profiles. Each linked Extension page includes a formal definition.</li>
-            <li>[Value Sets](artifacts.html#5): This section lists the value sets defined by this IG.</li>
-            <li>[Code Systems](artifacts.html#6): This section lists the code systems defined by this IG.</li>
-            <li>[Examples](artifacts.html#7): This section lists the example instances associated with this IG. These provide an example representation of the scenario discussed on the [Use Cases](use-cases.html) page.</li>
-        </ul>
-    </li>
-    <li>[Downloads](downloads.html): This page provides links to downloadable artifacts.</li>
-</ul>
+- [Home](index.html): The home page provides the introduction and background information to set context for the use of the HL7 FHIR® Re-assessment Timepoints Implementation Guide.
+- Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide.
+    - [Formal Specification](formal_specification.html): Information about conformance to the guide including Must Support requirements.
+    - [Use Cases](use_cases.html): Details of a scenario in which Re-Assessment Timepoints is used and ways that client applications can leverage the information.
+    - [Security](security_and_privacy.html): General security requirements and recommendations for Re-Assessment Timepoints Implementation Guide actors, including authentication, authorization, and logging requirements and guidance.
+    - [Underlying Technologies](underlying_technologies.html): Information about the terminologies, notations, and design principles specific to FHIR that are used by this specification
+- FHIR Artifacts: These sections provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
+    - [Capability Statement](CapabilityStatement-rt-cs.html): This artifact defines the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide. Systems conforming to this implementation guide are expected to declare conformance this capability statements.
+    - [Search Parameters](artifacts.html#2): This section lists Search Parameters defined for use with Re-Assessment Timepoints.
+    - [Profiles](artifacts.html#3): This section lists the set of Profiles that are defined in this guide to exchange Re-Assessment Timepoint information. Each linked Profile page includes a narrative introduction and a formal definition.
+    - [Extensions](artifacts.html#4): This section lists the set of Extensions that are defined in this guide that are used by the IG defined profiles. Each linked Extension page includes a formal definition.
+    - [Value Sets](artifacts.html#5): This section lists the value sets defined by this IG.
+    - [Code Systems](artifacts.html#6): This section lists the code systems defined by this IG.
+    - [Examples](artifacts.html#7): This section lists the example instances associated with this IG. These provide an example representation of the scenario discussed on the [Use Cases](use_cases.html) page.
+- [Downloads](downloads.html): This page provides links to downloadable artifacts.
 
 
 ### Key Terms and Acronyms
