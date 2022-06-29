@@ -482,8 +482,8 @@
 <artifact id="Observation/RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-26" key="Observation-RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-26" name="RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-26"/>
 <artifact id="Observation/RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-27" key="Observation-RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-27" name="RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-27"/>
 <artifact id="Observation/RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-28" key="Observation-RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-28" name="RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-28"/>
+<artifact id="CapabilityStatement/rt-cs" key="CapabilityStatement-pacio-rt-cs" name="Re-Assessment Timepoints Capability Statement"/>
 <artifact id="StructureDefinition/reassessment-timepoints-encounter" key="StructureDefinition-reassessment-timepoints-encounter" name="Re-Assessment Timepoints Encounter"/>
-<artifact id="CapabilityStatement/rt-cs" key="CapabilityStatement-pacio-rt-cs" name="Re-assessment Timepoints Capability Statement"/>
 <artifact deprecated="true" id="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A" key="Observation-SNF-MOB-AP-MDS-5-Day-NC-1A" name="SNF-MOB-AP-MDS-5-Day-NC-1A"/>
 <artifact deprecated="true" id="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1" key="Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1" name="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1"/>
 <artifact deprecated="true" id="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10" key="Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10" name="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10"/>
