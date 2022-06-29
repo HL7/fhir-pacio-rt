@@ -153,9 +153,9 @@
 <artifact id="ClinicalImpression/RT-HHA-ClinicalImpression-4-OASIS-DC" key="ClinicalImpression-RT-HHA-ClinicalImpression-4-OASIS-DC" name="RT-HHA-ClinicalImpression-4-OASIS-DC"/>
 <artifact id="Condition/RT-HHA-Diagnosis-CISequelae" key="Condition-RT-HHA-Diagnosis-CISequelae" name="RT-HHA-Diagnosis-CISequelae"/>
 <artifact id="Encounter/RT-HHA-Encounter" key="Encounter-RT-HHA-Encounter" name="RT-HHA-Encounter"/>
-<artifact id="Encounter/RT-HHA-Encounter-Re-assessment-Timepoint-1" key="Encounter-RT-HHA-Encounter-Re-assessment-Timepoint-1" name="RT-HHA-Encounter-Re-assessment-Timepoint-1"/>
-<artifact id="Encounter/RT-HHA-Encounter-Re-assessment-Timepoint-2" key="Encounter-RT-HHA-Encounter-Re-assessment-Timepoint-2" name="RT-HHA-Encounter-Re-assessment-Timepoint-2"/>
-<artifact id="Encounter/RT-HHA-Encounter-Re-assessment-Timepoint-3" key="Encounter-RT-HHA-Encounter-Re-assessment-Timepoint-3" name="RT-HHA-Encounter-Re-assessment-Timepoint-3"/>
+<artifact id="Encounter/RT-HHA-Encounter-Re-Assessment-Timepoint-1" key="Encounter-RT-HHA-Encounter-Re-Assessment-Timepoint-1" name="RT-HHA-Encounter-Re-Assessment-Timepoint-1"/>
+<artifact id="Encounter/RT-HHA-Encounter-Re-Assessment-Timepoint-2" key="Encounter-RT-HHA-Encounter-Re-Assessment-Timepoint-2" name="RT-HHA-Encounter-Re-Assessment-Timepoint-2"/>
+<artifact id="Encounter/RT-HHA-Encounter-Re-Assessment-Timepoint-3" key="Encounter-RT-HHA-Encounter-Re-Assessment-Timepoint-3" name="RT-HHA-Encounter-Re-Assessment-Timepoint-3"/>
 <artifact id="EpisodeOfCare/RT-HHA-EpisodeOfCare" key="EpisodeOfCare-RT-HHA-EpisodeOfCare" name="RT-HHA-EpisodeOfCare"/>
 <artifact id="Observation/RT-HHA-MOB-DC-OASIS-2E" key="Observation-RT-HHA-MOB-DC-OASIS-2E" name="RT-HHA-MOB-DC-OASIS-2E"/>
 <artifact id="Observation/RT-HHA-MOB-DC-OASIS-2E-Ob-Question-12" key="Observation-RT-HHA-MOB-DC-OASIS-2E-Ob-Question-12" name="RT-HHA-MOB-DC-OASIS-2E-Ob-Question-12"/>
@@ -356,8 +356,8 @@
 <artifact id="ClinicalImpression/RT-SNF-ClinicalImpression-3-MDS-Discharge" key="ClinicalImpression-RT-SNF-ClinicalImpression-3-MDS-Discharge" name="RT-SNF-ClinicalImpression-3-MDS-Discharge"/>
 <artifact id="Condition/RT-SNF-Diagnosis-CI" key="Condition-RT-SNF-Diagnosis-CI" name="RT-SNF-Diagnosis-CI"/>
 <artifact id="Encounter/RT-SNF-Encounter" key="Encounter-RT-SNF-Encounter" name="RT-SNF-Encounter"/>
-<artifact id="Encounter/RT-SNF-Encounter-Re-assessment-Timepoint-1" key="Encounter-RT-SNF-Encounter-Re-assessment-Timepoint-1" name="RT-SNF-Encounter-Re-assessment-Timepoint-1"/>
-<artifact id="Encounter/RT-SNF-Encounter-Re-assessment-Timepoint-2" key="Encounter-RT-SNF-Encounter-Re-assessment-Timepoint-2" name="RT-SNF-Encounter-Re-assessment-Timepoint-2"/>
+<artifact id="Encounter/RT-SNF-Encounter-Re-Assessment-Timepoint-1" key="Encounter-RT-SNF-Encounter-Re-Assessment-Timepoint-1" name="RT-SNF-Encounter-Re-Assessment-Timepoint-1"/>
+<artifact id="Encounter/RT-SNF-Encounter-Re-Assessment-Timepoint-2" key="Encounter-RT-SNF-Encounter-Re-Assessment-Timepoint-2" name="RT-SNF-Encounter-Re-Assessment-Timepoint-2"/>
 <artifact id="EpisodeOfCare/RT-SNF-EpisodeOfCare" key="EpisodeOfCare-RT-SNF-EpisodeOfCare" name="RT-SNF-EpisodeOfCare"/>
 <artifact id="Observation/RT-SNF-MOB-AP-MDS-5-Day-NC-1A" key="Observation-RT-SNF-MOB-AP-MDS-5-Day-NC-1A" name="RT-SNF-MOB-AP-MDS-5-Day-NC-1A"/>
 <artifact id="Observation/RT-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1" key="Observation-RT-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1" name="RT-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1"/>
@@ -482,8 +482,8 @@
 <artifact id="Observation/RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-26" key="Observation-RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-26" name="RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-26"/>
 <artifact id="Observation/RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-27" key="Observation-RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-27" name="RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-27"/>
 <artifact id="Observation/RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-28" key="Observation-RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-28" name="RT-SNF-SC-IP-MDS-IPA-1D-Ob-Question-28"/>
+<artifact id="StructureDefinition/reassessment-timepoints-encounter" key="StructureDefinition-reassessment-timepoints-encounter" name="Re-Assessment Timepoints Encounter"/>
 <artifact id="CapabilityStatement/rt-cs" key="CapabilityStatement-pacio-rt-cs" name="Re-assessment Timepoints Capability Statement"/>
-<artifact id="StructureDefinition/reassessment-timepoints-encounter" key="StructureDefinition-reassessment-timepoints-encounter" name="Re-assessment Timepoints Encounter"/>
 <artifact deprecated="true" id="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A" key="Observation-SNF-MOB-AP-MDS-5-Day-NC-1A" name="SNF-MOB-AP-MDS-5-Day-NC-1A"/>
 <artifact deprecated="true" id="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1" key="Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1" name="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1"/>
 <artifact deprecated="true" id="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10" key="Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10" name="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10"/>

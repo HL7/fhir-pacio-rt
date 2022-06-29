@@ -4,11 +4,11 @@
 Alias: ICD10 = http://hl7.org/fhir/sid/icd-10-cm
 
 
-Instance: RT-SNF-Encounter-Re-assessment-Timepoint-1
+Instance: RT-SNF-Encounter-Re-Assessment-Timepoint-1
 InstanceOf: ReassessmentTimepointsEncounter
-Description: "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-01 to 2020-01-13"
+Description: "SNF-Stay MDS Re-Assessment Timepoint with Type Payer, period 2020-01-01 to 2020-01-13"
 * identifier.system = "http://example.org/identifiers/patient"
-* identifier.value = "MDS-Re-assessment-Timepoint-1001"
+* identifier.value = "MDS-Re-Assessment-Timepoint-1001"
 * status = #finished
 * class = TimepointClassCodeSystem#SNF "skilled nursing facility"
 * type = TimepointEntityCodeSystem#payer "Payer"
@@ -28,11 +28,11 @@ Description: "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-
 * serviceProvider = Reference(Organization/RT-PractitionerOrg-HappyNursing-SNF)
 * partOf = Reference(Encounter/RT-SNF-Encounter)
 
-Instance: RT-SNF-Encounter-Re-assessment-Timepoint-2
+Instance: RT-SNF-Encounter-Re-Assessment-Timepoint-2
 InstanceOf: ReassessmentTimepointsEncounter
-Description: "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-14 to 2020-02-10"
+Description: "SNF-Stay MDS Re-Assessment Timepoint with Type Payer, period 2020-01-14 to 2020-02-10"
 * identifier.system = "http://example.org/identifiers/patient"
-* identifier.value = "MDS-Re-assessment-Timepoint-2001"
+* identifier.value = "MDS-Re-Assessment-Timepoint-2001"
 * status = #finished
 * class = TimepointClassCodeSystem#SNF "skilled nursing facility"
 * type = TimepointEntityCodeSystem#payer "Payer"
@@ -52,11 +52,11 @@ Description: "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-
 * serviceProvider = Reference(Organization/RT-PractitionerOrg-HappyNursing-SNF)
 * partOf = Reference(Encounter/RT-SNF-Encounter)
 
-Instance: RT-HHA-Encounter-Re-assessment-Timepoint-1
+Instance: RT-HHA-Encounter-Re-Assessment-Timepoint-1
 InstanceOf: ReassessmentTimepointsEncounter
-Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-02-10 to 2020-04-09"
+Description: "HHA-Stay OASIS Re-Assessment Timepoint with Type Payer, period 2020-02-10 to 2020-04-09"
 * identifier.system = "http://example.org/identifiers/patient"
-* identifier.value = "OASIS-Re-assessment-Timepoint-1001"
+* identifier.value = "OASIS-Re-Assessment-Timepoint-1001"
 * status = #finished
 * class = $V3ACTCODE#HH "home health"
 * type = TimepointEntityCodeSystem#payer "Payer"
@@ -77,11 +77,11 @@ Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 202
 * serviceProvider = Reference(Organization/RT-PractitionerOrg-SkyHarbor-HHA)
 * partOf = Reference(Encounter/RT-HHA-Encounter)
 
-Instance: RT-HHA-Encounter-Re-assessment-Timepoint-2
+Instance: RT-HHA-Encounter-Re-Assessment-Timepoint-2
 InstanceOf: ReassessmentTimepointsEncounter
-Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-04-10 to 2020-06-09"
+Description: "HHA-Stay OASIS Re-Assessment Timepoint with Type Payer, period 2020-04-10 to 2020-06-09"
 * identifier.system = "http://example.org/identifiers/patient"
-* identifier.value = "OASIS-Re-assessment-Timepoint-2001"
+* identifier.value = "OASIS-Re-Assessment-Timepoint-2001"
 * status = #finished
 * class = $V3ACTCODE#HH "home health"
 * type = TimepointEntityCodeSystem#payer "Payer"
@@ -102,11 +102,11 @@ Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 202
 * serviceProvider = Reference(Organization/RT-PractitionerOrg-SkyHarbor-HHA)
 * partOf = Reference(Encounter/RT-HHA-Encounter)
 
-Instance: RT-HHA-Encounter-Re-assessment-Timepoint-3
+Instance: RT-HHA-Encounter-Re-Assessment-Timepoint-3
 InstanceOf: ReassessmentTimepointsEncounter
-Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-06-10 to 2020-06-29"
+Description: "HHA-Stay OASIS Re-Assessment Timepoint with Type Payer, period 2020-06-10 to 2020-06-29"
 * identifier.system = "http://example.org/identifiers/patient"
-* identifier.value = "OASIS-Re-assessment-Timepoint-3001"
+* identifier.value = "OASIS-Re-Assessment-Timepoint-3001"
 * status = #finished
 * class = $V3ACTCODE#HH "home health"
 * type = TimepointEntityCodeSystem#payer "Payer"

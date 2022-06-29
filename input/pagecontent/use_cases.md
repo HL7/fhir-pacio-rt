@@ -11,14 +11,14 @@ Betsy Smith-Johnson is a 71-year-old woman. In early 2021, Betsy experiences rig
 
 #### Server Representation
 
-The Happy Nursing Facility FHIR server makes the information on Betsy's stay available using the [Re-assessment Timepoint structure](StructureDefinition-reassessment-timepoints-encounter.html), including
+The Happy Nursing Facility FHIR server makes the information on Betsy's stay available using the [Re-Assessment Timepoint structure](StructureDefinition-reassessment-timepoints-encounter.html), including
 - Re-Assessment Timepoint encounter instances for two periods, each linked back to the [primary encounter](Encounter-RT-SNF-Encounter.html)
-  - [Admission to IPA](Encounter-RT-SNF-Encounter-Re-assessment-Timepoint-1.html)
-  - [IPA to Discharge](Encounter-RT-SNF-Encounter-Re-assessment-Timepoint-2.html)
+  - [Admission to IPA](Encounter-RT-SNF-Encounter-Re-Assessment-Timepoint-1.html)
+  - [IPA to Discharge](Encounter-RT-SNF-Encounter-Re-Assessment-Timepoint-2.html)
 - ClinicalImpression instances for
-  - [The MDS Admission Assessment](ClinicalImpression-RT-SNF-ClinicalImpression-1-MDS-5-day.html): linked to the [first](Encounter-RT-SNF-Encounter-Re-assessment-Timepoint-1.html) timepoint
-  - [The MDS IPA](ClinicalImpression-RT-SNF-ClinicalImpression-2-MDS-IPA.html): linked to the [first](Encounter-RT-SNF-Encounter-Re-assessment-Timepoint-1.html) and [second](Encounter-RT-SNF-Encounter-Re-assessment-Timepoint-2.html) timepoints
-  - [The MDS Discharge Assessment](ClinicalImpression-RT-SNF-ClinicalImpression-3-MDS-Discharge.html): linked to the [second](Encounter-RT-SNF-Encounter-Re-assessment-Timepoint-2.html) timepoint
+  - [The MDS Admission Assessment](ClinicalImpression-RT-SNF-ClinicalImpression-1-MDS-5-day.html): linked to the [first](Encounter-RT-SNF-Encounter-Re-Assessment-Timepoint-1.html) timepoint
+  - [The MDS IPA](ClinicalImpression-RT-SNF-ClinicalImpression-2-MDS-IPA.html): linked to the [first](Encounter-RT-SNF-Encounter-Re-Assessment-Timepoint-1.html) and [second](Encounter-RT-SNF-Encounter-Re-Assessment-Timepoint-2.html) timepoints
+  - [The MDS Discharge Assessment](ClinicalImpression-RT-SNF-ClinicalImpression-3-MDS-Discharge.html): linked to the [second](Encounter-RT-SNF-Encounter-Re-Assessment-Timepoint-2.html) timepoint
 - Observation instances representing formal assessments, each linked to the appropriate ClinicalImpression, e.g., an [MDS 5-Day mobility assessment collection](Observation-RT-SNF-MOB-AP-MDS-5-Day-NC-1A.html)
 - Observation instances representing additional clinical data collected outside the formal assessments, e.g., an [adhoc self-care assessment](Observation-RT-SNF-SC-Adhoc-1D.html).
 
@@ -28,11 +28,11 @@ Healthy HMO, a Medicare Advantage Plan, is auditing what led to a Interim Paymen
 
 #### Description
 
-The payor compliance rules of Healthy HMO, Betsy's insurance provider, align with Medicare. They decide to audit the billing period that ended with the IPA specifying a higher payment rate. In order to perform this audit, Healthy HMO queries for Betsy's [active encounter](Encounter-RT-SNF-Encounter.html) and requests all associated timepoints. They select the [timepoint](Encounter-RT-SNF-Encounter-Re-assessment-Timepoint-1.html) running from February 26 ([Admission MDS](ClinicalImpression-RT-SNF-ClinicalImpression-1-MDS-5-day.html)) to March 11 ([MDS IPA](ClinicalImpression-RT-SNF-ClinicalImpression-2-MDS-IPA.html)). Using this timepoint, Healthy HMO requests functional and cognitive status observations and clinical impressions within the billing range defined by the timepoint. This allows them to see that Betsy's demonstrated improvement until her ankle injury, indicating that she received appropriate care and that the IPA was justified.
+The payor compliance rules of Healthy HMO, Betsy's insurance provider, align with Medicare. They decide to audit the billing period that ended with the IPA specifying a higher payment rate. In order to perform this audit, Healthy HMO queries for Betsy's [active encounter](Encounter-RT-SNF-Encounter.html) and requests all associated timepoints. They select the [timepoint](Encounter-RT-SNF-Encounter-Re-Assessment-Timepoint-1.html) running from February 26 ([Admission MDS](ClinicalImpression-RT-SNF-ClinicalImpression-1-MDS-5-day.html)) to March 11 ([MDS IPA](ClinicalImpression-RT-SNF-ClinicalImpression-2-MDS-IPA.html)). Using this timepoint, Healthy HMO requests functional and cognitive status observations and clinical impressions within the billing range defined by the timepoint. This allows them to see that Betsy's demonstrated improvement until her ankle injury, indicating that she received appropriate care and that the IPA was justified.
 
 #### Client Queries
 
-##### Get the Re-assessment Timepoints Within an Encounter prior to the IPA
+##### Get the Re-Assessment Timepoints Within an Encounter prior to the IPA
 
 Healthy HMO's client app has received information on the IPA, including
 - The parent encounter id `RT-SNF-Encounter`
@@ -53,7 +53,7 @@ Alternatively, if the server supports the based-on ClinicalImpression query, the
   </code>
 </pre>
 
-In either case, Healthy HMO's client app can then follow the links from the [returned Re-Assessment Timepoint](Encounter-RT-SNF-Encounter-Re-assessment-Timepoint-1.html) to the associated ClinicalImpression instances (e.g., [The MDS Admission Assessment](ClinicalImpression-RT-SNF-ClinicalImpression-1-MDS-5-day.html)) and then to the referenced observations representing the formal assessments (e.g., [MDS 5-Day mobility assessment collection](Observation-RT-SNF-MOB-AP-MDS-5-Day-NC-1A.html)). They can also use the date range defined by the timepoint to find other clinical details (e.g., an [adhoc self-care assessment](Observation-RT-SNF-SC-Adhoc-1D.html)) of Betsy's care during this period.
+In either case, Healthy HMO's client app can then follow the links from the [returned Re-Assessment Timepoint](Encounter-RT-SNF-Encounter-Re-Assessment-Timepoint-1.html) to the associated ClinicalImpression instances (e.g., [The MDS Admission Assessment](ClinicalImpression-RT-SNF-ClinicalImpression-1-MDS-5-day.html)) and then to the referenced observations representing the formal assessments (e.g., [MDS 5-Day mobility assessment collection](Observation-RT-SNF-MOB-AP-MDS-5-Day-NC-1A.html)). They can also use the date range defined by the timepoint to find other clinical details (e.g., an [adhoc self-care assessment](Observation-RT-SNF-SC-Adhoc-1D.html)) of Betsy's care during this period.
 
 ### Use Case 2: Discharge to Home Health Care
 
@@ -65,7 +65,7 @@ As a part of admission to Sky Harbor Home Health, the home health nurse wants to
 
 #### Client Queries
 
-##### Get all Re-assessment Timepoints Within an Encounter
+##### Get all Re-Assessment Timepoints Within an Encounter
 
 Sky Harbor's client app uses the [US Core](https://hl7.org/fhir/us/core/) specifications to query Happy Nursing Facility's FHIR server and identify the encounter instance for Betsy's recent stay at their facility. Using the id associated with that encounter `RT-SNF-Encounter`, the client app can retrieve the Re-Assessment Timepoints that comprise that encounter.
 

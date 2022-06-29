@@ -1,8 +1,8 @@
 Profile: ReassessmentTimepointsEncounter
 Parent: USCoreEncounterProfile
 Id: reassessment-timepoints-encounter
-Title: "Re-assessment Timepoints Encounter"
-Description: "Re-assessment Timepoints Encounter is a profile of the Encounter resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient."
+Title: "Re-Assessment Timepoints Encounter"
+Description: "Re-Assessment Timepoints Encounter is a profile of the Encounter resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient."
 
 * identifier 1..* MS
 * identifier ^short = "Identifier(s) by which this timepoint is known"

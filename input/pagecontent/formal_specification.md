@@ -2,20 +2,20 @@
 This section defines additional requirements and guidance relevant to this guide as a whole. The conformance verbs - **SHALL**, **SHOULD**, **MAY** - used in this guide are defined in [FHIR Conformance Rules](http://hl7.org/fhir/R4/conformance-rules.html).
 
 
-### Claiming Conformance to a PACIO Re-assessment Timepoints Profile
+### Claiming Conformance to a PACIO Re-Assessment Timepoints Profile
 To claim conformance to a profile in this guide, servers **SHALL**:
 
 - Be able to populate all profile data elements that have a minimum cardinality >= 1 and/or flagged as Must Support as defined by that profile’s StructureDefinition.
-- Conform to the [PACIO Re-assessment Timepoints Capability Statement](CapabilityStatement-rt-cs.html) expectations for that profile’s type.
+- Conform to the [PACIO Re-Assessment Timepoints Capability Statement](CapabilityStatement-rt-cs.html) expectations for that profile’s type.
 <!-- TODO note about what profiles must be supported?-->
 
 ### Must Support
-The following rules apply to all PACIO Re-assessment Timepoints Profile elements marked as Must Support. Must Support on any profile data element **SHALL** be interpreted as follows:
+The following rules apply to all PACIO Re-Assessment Timepoints Profile elements marked as Must Support. Must Support on any profile data element **SHALL** be interpreted as follows:
 
 
 #### Data Source System Requirements
 
-- Data Sources Systems **SHALL** be capable of populating all data elements as part of the query results as specified by the [PACIO Re-assessment Timepoints Capability Statement](CapabilityStatement-rt-cs.html).
+- Data Sources Systems **SHALL** be capable of populating all data elements as part of the query results as specified by the [PACIO Re-Assessment Timepoints Capability Statement](CapabilityStatement-rt-cs.html).
 
 #### Data Consumer System Requirements
 

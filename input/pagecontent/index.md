@@ -14,7 +14,7 @@ Out of hospital care spans longer periods of time than in Acute and Ambulatory s
 </p>
 
 <br clear="all" />
-<figure style="text-align:center"><img src="./concept.png" alt="Re-assessment Timepoint Concept" width="70%" /></figure>
+<figure style="text-align:center"><img src="./concept.png" alt="Re-Assessment Timepoint Concept" width="70%" /></figure>
 <br clear="all" />
 
 <p>
@@ -22,11 +22,11 @@ For example - at the start of a Home Health admission, the patient may be coming
 </p>
 
 <br clear="all" />
-<figure style="text-align:center"><img src="./example.png" alt="Re-assessment Timepoint Example" width="70%" /></figure>
+<figure style="text-align:center"><img src="./example.png" alt="Re-Assessment Timepoint Example" width="70%" /></figure>
 <br clear="all" />
 
 <p>
-We have selected the Encounter Resource for the Re-assessment Timepoints profile. Contributors to this discussion include providers, health IT organizations, other FHIR workgroups, and governing bodies like CMS, LOINC, and others.
+We have selected the Encounter Resource for the Re-Assessment Timepoints profile. Contributors to this discussion include providers, health IT organizations, other FHIR workgroups, and governing bodies like CMS, LOINC, and others.
 </p>
 
 ![PACIO logo](./pacio.png)
@@ -47,7 +47,7 @@ The primary goal of the PACIO Project is to establish a framework for the develo
 ### How to read this Guide
 
 This Guide is divided into several pages which are listed at the top of each page in the menu bar.
-- [Home](index.html): The home page provides the introduction and background information to set context for the use of the HL7 FHIR® Re-assessment Timepoints Implementation Guide.
+- [Home](index.html): The home page provides the introduction and background information to set context for the use of the HL7 FHIR® Re-Assessment Timepoints Implementation Guide.
 - Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide.
     - [Formal Specification](formal_specification.html): Information about conformance to the guide including Must Support requirements.
     - [Use Cases](use_cases.html): Details of a scenario in which Re-Assessment Timepoints is used and ways that client applications can leverage the information.
