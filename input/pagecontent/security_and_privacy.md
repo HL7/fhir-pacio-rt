@@ -1,10 +1,10 @@
 [//]: #  ## Security and Privacy 
 
 ### General Considerations
-Re-assessment Timepoints involves communication of patient-specific clinical information across multiple parties. This means that it needs to be protected with proper security and privacy protections to avoid malicious or unintentional exposure of such information. All Re-assessment Timepoint exchanges must be appropriately secured in transit and have access limited only to authorized individuals, which may include the patient who the information is about, their caregivers, payers paying for the associated services, or other individuals or entities who have permission to use the information.
+The exchange of re-assessment timepoint details involves communication of patient-specific clinical information across multiple parties. This means that it needs to be protected with proper security and privacy protections to avoid malicious or unintentional exposure of such information. All re-assessment timepoint exchanges must be appropriately secured in transit and have access limited only to authorized individuals, which may include the patient who the information is about, their caregivers, payers paying for the associated services, or other individuals or entities who have permission to use the information.
 
 #### Security Considerations and Guidance
-All implementers of the Re-assessment Timepoints Implementation Guide (IG) **SHOULD** follow the FHIR Security guidance, Security and Privacy Module, the FHIR Implementer’s Safety Checklist guidance as defined in the FHIR standard, and US Core security recommendations where applicable and not otherwise superseded by this Section of the Re-assessment Timepoints IG.
+All implementers of the Re-Assessment Timepoints Implementation Guide (IG) **SHOULD** follow the FHIR Security guidance, Security and Privacy Module, the FHIR Implementer’s Safety Checklist guidance as defined in the FHIR standard, and US Core security recommendations where applicable and not otherwise superseded by this Section of the Re-Assessment Timepoints IG.
 
 1.	The FHIR Security specification provides guidance related to communication security, authentication, authorization/access control, audit, digital signatures, attachments, labels, narrative, and input validation. The FHIR security specification is available [here](http://hl7.org/fhir/R4/security.html).
 2.	The FHIR Security and Privacy Module describes access control and authorization considerations to protect a FHIR server, how to document permissions granted, and how to keep records of performed events. The FHIR Security and privacy module can be found [here](http://hl7.org/fhir/R4/secpriv-module.html).
@@ -12,10 +12,10 @@ All implementers of the Re-assessment Timepoints Implementation Guide (IG) **SHO
 4.  The US Core Implementation Guide provides specific requirements and guidance for US Realm implementation guides around security, privacy, and auditing [here](http://hl7.org/fhir/us/core/security.html).
 
 #### Security Requirements
-For the purposes of Re-assessment Timepoints, additional security conformance requirements are as follows:
+For the purposes of Re-Assessment Timepoints, additional security conformance requirements are as follows:
 
 ##### Exchange Security
-1.  In order to protect sensitive patient data while in transit between systems, the exchange of Re-assessment Timepoints information **SHALL** support [Transport Layer Security (TLS) Protocol Version 1.2 (RFC5246)](https://tools.ietf.org/html/rfc5246) or a more recent version of TLS for transport layer security.
+1.  In order to protect sensitive patient data while in transit between systems, the exchange of information using the Re-Assessment Timepoints IG **SHALL** support [Transport Layer Security (TLS) Protocol Version 1.2 (RFC5246)](https://tools.ietf.org/html/rfc5246) or a more recent version of TLS for transport layer security.
 2.  Server implementations that expect to support browser-based javascript applications **SHOULD** enable [Cross-Origin Resource Sharing (CORS)](https://www.w3.org/TR/cors/) for REST operations. See the [Communications section of the FHIR security page](http://hl7.org/fhir/R4/security.html#http) for additional details and recommendations on safely enabling CORS.  
 
 ##### Authentication and Authorization 
