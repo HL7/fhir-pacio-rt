@@ -90,6 +90,6 @@ Description: "Re-assessment Timepoints Encounter is a profile of the Encounter r
 
 Extension: BasedOnClinicalImpression
 Id: clinicalImpression
-Description: "An extension allowing Re-Assessment Timepoint Encounters to be linked to the formal assessments that define the start and end of the timepoint. Each linked ClinicalImpression instance represents a completed assessment, such as a MDS 5-day or OASIS 120-day Follow-up. The instance will include links to the Observation instances that document the discrete results of the assessment."
+Description: "An extension allowing Re-Assessment Timepoint Encounters to be linked to the formal assessments that define the start and end of the timepoint. Each linked ClinicalImpression instance represents a completed assessment, such as a MDS 5-day or OASIS 120-day Follow-up. The instance will include links to the Observation instances that document the discrete results of the assessment. See the [Re-Assessment Timepoint Encounter profile](StructureDefinition-reassessment-timepoints-encounter.html) for a description of the complete structure."
 * value[x] only Reference(ClinicalImpression)
 * value[x] ^short = "A ClinicalImpression instance representing a formal assessment that was performed at the start or end of the referencing timepoint."
