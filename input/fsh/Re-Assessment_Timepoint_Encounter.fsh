@@ -2,7 +2,7 @@ Profile: ReassessmentTimepointsEncounter
 Parent: USCoreEncounterProfile
 Id: reassessment-timepoints-encounter
 Title: "Re-Assessment Timepoints Encounter"
-Description: "Re-Assessment Timepoints Encounter is a profile of the Encounter resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient."
+Description: "Re-Assessment Timepoints Encounter is a profile of the Encounter resource that allows longer-term post-acute admissions to be structured into smaller more consumable components, in line with the longer-term clinical care and progression of a patient."
 
 * identifier 1..* MS
 * identifier ^short = "Identifier(s) by which this timepoint is known"
@@ -90,6 +90,6 @@ Description: "Re-Assessment Timepoints Encounter is a profile of the Encounter r
 
 Extension: BasedOnClinicalImpression
 Id: clinicalImpression
-Description: "An extension allowing Re-Assessment Timepoint Encounters to be linked to the formal assessments that define the start and end of the timepoint. Each linked ClinicalImpression instance represents a completed assessment, such as a MDS 5-day or OASIS 120-day Follow-up. The instance will include links to the Observation instances that document the discrete results of the assessment. See the [Re-Assessment Timepoint Encounter profile](StructureDefinition-reassessment-timepoints-encounter.html) for a description of the complete structure."
+Description: "This extension allows Re-Assessment Timepoint Encounters to be linked to the formal assessments that define the start and end of the timepoint. Each linked ClinicalImpression instance represents a completed assessment, such as an MDS 5-day or OASIS 120-day Follow-up. The instance will include links to the Observation instances that document the discrete results of the assessment."
 * value[x] only Reference(ClinicalImpression)
 * value[x] ^short = "A ClinicalImpression instance representing a formal assessment that was performed at the start or end of the referencing timepoint."

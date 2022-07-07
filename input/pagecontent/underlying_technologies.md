@@ -1,8 +1,8 @@
 ### Fast Healthcare Interoperability Resources
 
-Based on the [HL7 FHIR]({{site.data.fhir.path}}index.html) standard, this implementation guide uses terminology, notations, and design principles that are specific to FHIR. Implementers of this specification therefore need to understand some basic information about this specification.
+Based on the [HL7® FHIR®]({{site.data.fhir.path}}index.html) standard, this IG uses terminology, notations, and design principles that are specific to FHIR®. Therefore, implementers of this specification need to understand some basic information about the FHIR® specification.
 
-Before reading this implementation guide, it's important to be familiar with some of the basic principles of FHIR as well as general guidance on how to read FHIR specifications. Readers who are unfamiliar with FHIR are encouraged to read the following prior to reading the rest of this implementation guide.
+Before reading this IG, it’s important to be familiar with some of the basic principles of FHIR®, as well as general guidance on how to read FHIR® specifications. Readers who are unfamiliar with FHIR® may find reading the following information helpful prior to reading the rest of this IG.
 
 * [FHIR overview]({{site.data.fhir.path}}overview.html)
 * [Developer's introduction]({{site.data.fhir.path}}overview-dev.html)
@@ -14,7 +14,7 @@ Before reading this implementation guide, it's important to be familiar with som
 * [Security]({{site.data.fhir.path}}security.html)
 * [Security Labels]({{site.data.fhir.path}}security-labels.html)
 
-This implementation guide supports the [R4]({{site.data.fhir.path}}index.html) version of the FHIR standard and builds on the [US Core Implementation Guide](http://hl7.org/fhir/us/core) and implementers need to familiarize themselves with the profiles in that guide. Implementers should also familiarize themselves with the FHIR resources used within the guide:
+The Re-assessment Timepoints IG supports the [R4]({{site.data.fhir.path}}index.html) version of the FHIR® standard and builds on the [US Core Implementation Guide](http://hl7.org/fhir/us/core); therefore, implementers of the Re-assessment Timepoints IG need to familiarize themselves with the Profiles and FHIR® Resources in the US Core IG:
 
 <table>
   <td>

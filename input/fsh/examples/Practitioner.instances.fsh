@@ -157,8 +157,8 @@ Description: "Practitioner John Smith"
 // Organization instances
 Instance: RT-PractitionerOrg-HappyNursing-SNF
 InstanceOf: Organization
-Description: "Organization Happy Nursing Facility"
-* name = "Happy Nursing Facility"
+Description: "Organization Happy Skilled Nursing Facility"
+* name = "Happy Skilled Nursing Facility"
 
 Instance: RT-PractitionerOrg-SkyHarbor-HHA
 InstanceOf: Organization
@@ -168,9 +168,9 @@ Description: "Organization Sky Harbor Home Health Services"
 // Location instances
 Instance: RT-PractitionerOrgLoc-HappyNursing-SNF
 InstanceOf: Location
-Description: "Location Happy Nursing Facility"
+Description: "Location Happy Skilled Nursing Facility"
 * status = #active
-* name = "Happy Nursing Facility"
+* name = "Happy Skilled Nursing Facility"
 * address.text  = "8100 Pinebrook Dr, San Antonio, TX, 78230"
 
 Instance: RT-PractitionerOrgLoc-SkyHarbor-HHA
