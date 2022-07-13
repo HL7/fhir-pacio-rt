@@ -5,9 +5,9 @@ Alias: Hl7V2TBL0131 = http://terminology.hl7.org/CodeSystem/v2-0131
 Alias: Hl7V3ROLE = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
 
-Instance: patientBSJ1
+Instance: RT-Patient-BSJ
 InstanceOf: USCorePatientProfile
-Description: "An instance of USCorePatientProfile"
+Description: "Patient Betsy Smith-Johnson"
 * active = true
 
 * name.text = "Betsy Smith-Johnson"
@@ -45,4 +45,4 @@ Description: "An instance of USCorePatientProfile"
 * contact[0].telecom.value = "(210) 222-3333"
 * contact[1].telecom.value = "(410) 444-5555"
 
-* generalPractitioner = Reference(Practitioner-JohnSmith)
+* generalPractitioner = Reference(Practitioner/RT-Practitioner-JohnSmith)

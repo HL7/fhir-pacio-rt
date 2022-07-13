@@ -3,3 +3,7 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+# Suppress Slicing Information for Observation.category since all these examples have optional slices that are not defined in the profile - not matching is expected behavior - confirmed by Grahame Grieve on Zulip thread: https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/extension.20slicing.20info.20warning.20in.20IG.20qa.20report
+INFORMATION: CapabilityStatement/rt-cs: CapabilityStatement.rest[0].resource[0].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
+INFORMATION: CapabilityStatement/rt-cs: CapabilityStatement.rest[0].resource[0].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination

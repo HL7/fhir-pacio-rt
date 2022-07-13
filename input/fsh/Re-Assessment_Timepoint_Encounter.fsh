@@ -1,8 +1,8 @@
 Profile: ReassessmentTimepointsEncounter
 Parent: USCoreEncounterProfile
 Id: reassessment-timepoints-encounter
-Title: "Re-assessment Timepoints Encounter"
-Description: "Re-assessment Timepoints Encounter is a profile of the Encounter resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient."
+Title: "Re-Assessment Timepoints Encounter"
+Description: "Re-Assessment Timepoints Encounter is a profile of the Encounter resource that allows longer-term post-acute admissions to be structured into smaller more consumable components, in line with the longer-term clinical care and progression of a patient."
 
 * identifier 1..* MS
 * identifier ^short = "Identifier(s) by which this timepoint is known"
@@ -85,11 +85,11 @@ Description: "Re-assessment Timepoints Encounter is a profile of the Encounter r
 * serviceProvider ^definition = "The organization that is primarily responsible for this timepoint's services. This MAY be the same as the organization on the Patient record, however it could be different, such as if the actor performing the services was from an external organization (which may be billed seperately) for an external consultation. Refer to the example bundle showing an abbreviated set of timepoints for a colonoscopy."
 * partOf 1..1 MS
 * partOf only Reference(USCoreEncounterProfile)
-* partOf ^short = "An Encounter this timepoint is part of"
-* partOf ^definition = "An Encounter this timepoint is part of"
+* partOf ^short = "The Encounter this timepoint is part of"
+* partOf ^definition = "The Encounter this timepoint is part of"
 
 Extension: BasedOnClinicalImpression
 Id: clinicalImpression
-Description: "An extension for referencing a clinical impression resource reflecting any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself."
+Description: "This extension allows Re-Assessment Timepoint Encounters to be linked to the formal assessments that define the start and end of the timepoint. Each linked ClinicalImpression instance represents a completed assessment, such as an MDS 5-day or OASIS 120-day Follow-up. The instance will include links to the Observation instances that document the discrete results of the assessment."
 * value[x] only Reference(ClinicalImpression)
-* value[x] ^short = "Reflecting any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself."
+* value[x] ^short = "A ClinicalImpression instance representing a formal assessment that was performed at the start or end of the referencing timepoint."
