@@ -1,7 +1,7 @@
 [//]: #  ## Security and Privacy 
 
 ### General Considerations
-Re-assessment Timepoints involves communication of patient-specific clinical information across multiple parties, which requires proper security and privacy protections to avoid malicious or unintentional exposure of such information. All Re-assessment Timepoint exchanges must be appropriately secured in transit and have access limited only to authorized individuals, which may include the person the information is about, that person’s caregivers, payers paying for the associated services, or other individuals or entities who have permission to use the information.
+Implementation of the Re-Assessment Timepoints IG involves communication of patient-specific clinical information across multiple parties, which requires proper security and privacy protections to avoid malicious or unintentional exposure of such information. All exchange of data under this IG must be appropriately secured in transit and have access limited only to authorized individuals, which may include the person the information is about, that person’s caregivers, payers paying for the associated services, or other individuals or entities who have permission to use the information.
 
 #### Security Considerations and Guidance
 All implementers of the Re-Assessment Timepoints IG **SHOULD** follow the FHIR® Security guidance, Security and Privacy Module, the FHIR® Implementer’s Safety Checklist guidance as defined in the FHIR® standard, and US Core security recommendations where applicable and not otherwise superseded by this Section of the Re-Assessment Timepoints IG.
