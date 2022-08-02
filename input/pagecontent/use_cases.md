@@ -1,6 +1,6 @@
 [//]: #  ## Use Cases
 
-The following scenario and related use cases guided the development of the Re-Assessment Timepoint IG. See this IG's [examples](artifacts.html#7) for resource instances represent this scenario.
+The following scenario and related use cases guided the development of the Re-Assessment Timepoint IG. See this IG's [examples](artifacts.html#7) for resource instances representing this scenario.
 
 ### Scenario
 
