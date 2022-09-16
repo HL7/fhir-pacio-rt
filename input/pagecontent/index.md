@@ -10,7 +10,7 @@ In settings like home health and skilled nursing facilities (SNFs), there are Me
 
 ### Background and Use Case
 <p>
-Out of hospital care spans longer periods of time than in Acute and Ambulatory settings of care. Where a patient may have a 1 hour annual check up with their Primary Care Provider (PCP), a Home Health nurse may see that same patient several times and for several hours at a time each weekfor months. Within these extended periods of time that make up a Post-Acute admission, there are sub units of time already defined and driven by regulation, payer requirements,  and internal processes that organize updates and changes to care being provided. Re-assessment timepoints act as an additional layer of organization within an encounter to help clinicians navigate the volume of data in a long-term encounter to more easily parse the specific information they may be seeking.
+Out of hospital care spans longer periods of time than in Acute and Ambulatory settings of care. Where a patient may have a 1 hour annual check up with their Primary Care Provider (PCP), a Home Health nurse may see that same patient several times and for several hours at a time each week for months. Within these extended periods of time that make up a Post-Acute admission, there are sub units of time already defined and driven by regulation, payer requirements,  and internal processes that organize updates and changes to care being provided. Re-assessment timepoints act as an additional layer of organization within an encounter to help clinicians navigate the volume of data in a long-term encounter to more easily parse the specific information they may be seeking.
 </p>
 
 <br clear="all" />
