@@ -17,7 +17,7 @@ contact:
   - name: PACIO project
     telecom:
       - system: url
-        value: https://www.hl7.org/Special/committees/homehealth
+        value: https://pacioproject.org/
       - system: email
         value: info@pacioproject.org
 license: CC0-1.0
